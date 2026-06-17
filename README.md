@@ -1,5 +1,5 @@
 
-##Sugarcane Bagasse Pasteurization Digital Twin
+## Sugarcane Bagasse Pasteurization Digital Twin
 
 From Agricultural Waste to Engineered Thermal System
 
@@ -10,7 +10,7 @@ From Agricultural Waste to Engineered Thermal System
 
 ---
 
-###Project Overview
+### Project Overview
 
 Sugarcane bagasse is a widely available agricultural by-product often treated as waste despite its potential in bioenergy, materials, and sustainable industrial applications. However, its high moisture content (~75%) leads to rapid microbial degradation, limiting its usability without stabilization.
 
@@ -34,7 +34,7 @@ The goal is to understand, predict, and optimize the thermal stabilization proce
 
 ---
 
-###Objectives
+### Objectives
 
 Experimentally determine thermophysical properties of wet bagasse
 
@@ -52,7 +52,7 @@ Estimate optimal operating conditions for industrial-scale operation
 
 ---
 
-###Material Characterization
+### Material Characterization
 
 The following properties were experimentally determined:
 
@@ -69,7 +69,7 @@ These properties define bagasse as a high-moisture, low-conductivity porous ther
 
 ---
 
-###Governing Model
+### Governing Model
 
 The transient thermal behavior of bagasse is described using a lumped energy balance:
 
@@ -93,7 +93,7 @@ This formulation treats the system as a flow-driven thermal reactor, where heati
 
 ---
 
-###Steam Modeling Approach
+### Steam Modeling Approach
 
 Steam is modeled as the primary energy carrier responsible for:
 
@@ -116,18 +116,18 @@ These define operational bounds for realistic industrial behavior.
 
 ---
 
-###Biot Number Analysis
+### Biot Number Analysis
 
 To validate the lumped capacitance assumption:
 
 Bi = \frac{h L_c}{k}
 
-###Result:
+### Result:
 
 Bi ≤ 1 (conservative approach: Bi ≤ 0.1)
 
 
-###Interpretation:
+### Interpretation:
 
 Internal conduction resistance is negligible
 
@@ -139,11 +139,11 @@ Lumped system modeling is valid
 
 ---
 
-###Computational Implementation
+### Computational Implementation
 
 The model was implemented using:
 
-####Python
+#### Python
 
 Numerical evaluation
 
@@ -154,7 +154,7 @@ Sensitivity analysis
 Energy balance verification
 
 
-####DWSIM
+#### DWSIM
 
 Process simulation
 
@@ -170,7 +170,7 @@ Together, they form a digital twin simulation framework.
 
 ---
 
-###Key Results
+### Key Results
 
 Parameter	Result
 
@@ -187,7 +187,7 @@ Process performance is highly sensitive to steam flow rate and enthalpy conditio
 
 ---
 
-###Batch Design Considerations
+### Batch Design Considerations
 
 The proposed batch capacity was validated based on:
 
@@ -207,7 +207,7 @@ This ensures physically realistic scaling for industrial application.
 
 ---
 
-###Engineering Significance
+### Engineering Significance
 
 This project demonstrates the transition from:
 
@@ -227,7 +227,7 @@ Computational modeling
 
 ---
 
-###Tools & Technologies
+### Tools & Technologies
 
 Python (NumPy, SciPy, Matplotlib)
 
@@ -245,7 +245,7 @@ Biot number analysis
 
 ---
 
-###Repository Structure
+### Repository Structure
 
 ├── README.md
 ├── /python-model/
@@ -264,7 +264,7 @@ Biot number analysis
 
 ---
 
-###Future Work
+### Future Work
 
 Dynamic (time-dependent) steam modeling
 
@@ -280,7 +280,7 @@ Integration into full biomass processing digital twin
 
 ---
 
-###Authors
+### Authors
 
 Blaise Atambo
 BSc Chemical Engineering
@@ -291,14 +291,14 @@ Supervisor: Dr. Godfrey Gakingo
 
 ---
 
-###Acknowledgment
+### Acknowledgment
 
 This work was inspired by real-world challenges in biomass utilization and industrial process systems engineering, aiming to bridge experimental characterization with computational modeling.
 
 
 ---
 
-###Key Insight
+### Key Insight
 
 > Engineering value is created when observation is transformed into prediction.
 
