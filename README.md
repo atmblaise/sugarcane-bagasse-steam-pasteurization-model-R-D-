@@ -1,5 +1,5 @@
 
-## Sugarcane Bagasse Pasteurization Digital Twin
+## Sugarcane Bagasse Pasteurization Model
 
 From Agricultural Waste to Engineered Thermal System
 
